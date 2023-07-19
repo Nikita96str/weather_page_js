@@ -1,0 +1,52 @@
+@media all and (max-width: 750px) {
+    .search_input {
+        width: 280px;
+    }
+
+    .weather-info_list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .weather-info_item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .weather-info {
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media all and (max-width: 470px) {
+    .header_container {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .search_input {
+        width: 220px;
+    }
+     
+    .header_city {
+        margin-bottom: 30px;
+    }
+
+    .weather {
+        padding-top: 60px;
+    }
+
+    .weather_temperature {
+        font-size: 120px;
+    }
+
+    .weather_icon {
+        width: 80px;
+        width: 80px;
+    }
+
+    .city_change {
+        margin-bottom: 15px;
+    }
+}
